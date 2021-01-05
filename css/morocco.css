@@ -1,0 +1,11 @@
+body{
+    position: relative;    
+	background-image: url(images/moroccoBg.jpg), url(images/whiteBg.png);
+    background-repeat: repeat-x, repeat;     
+	}
+
+@media only screen and (max-width : 1024px) {
+    body {	
+	background-image: url(images/moroccoBgSmall.jpg);
+    background-repeat: repeat-x, repeat;   	
+}}
